@@ -1,17 +1,20 @@
-﻿
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace cs2
+namespace cs1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("hello user!");
-            System.Console.ReadKey();
+            bool content = true;
+            bool nocontent = false;
+            Console.WriteLine("Text is {0}", content);
+            Console.WriteLine("Text is {0}", nocontent);
+            Console.ReadKey();
         }
     }
 }
